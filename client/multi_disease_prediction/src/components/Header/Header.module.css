@@ -1,0 +1,112 @@
+.LOGO{
+    color: black;
+    font-size: 25px;
+    animation: 5s anim-flipName ease infinite;
+}
+
+
+
+.responsiveDownload{
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.cvIcon{
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.Icon{
+    font-size: 20px;
+    margin: 8px;
+    color: black;
+    background-color: transparent;
+}
+
+/* @keyframes anim-flipName {
+    0% {
+      opacity: 0;
+      transform: rotateX(90def);
+    }
+    50% {
+      opacity: 1;
+      transform: rotateX(720deg);
+    }
+    100% {
+    
+      opacity: 1;
+      transform: rotateX(720deg);
+    }
+  } */
+
+
+.logoBorder{
+    font-size: 28px;
+    font-weight: bold;
+    color: #f2f2f2;
+    border: 1px solid #f58181;
+    border-radius: 30px;
+    background-color: #f58181;
+    padding: 0px 11px 0px 11px;
+    margin: 0px 10px 0px 0px;
+}
+
+
+
+.link{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+
+.user{
+    background-color: #f58181;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.link:hover{
+    color:#f58181;
+}
+
+.active{
+    color:#f58181;
+    font-weight: bold;
+}
+
+.activeResponsive{
+    color:green;
+}
+
+.linkResponsive{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+.linkResponsive:hover{
+    color: #f2f2f2;
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width: 349px) {
+    .LOGO{
+        font-size: 18px;
+    }
+
+    .logoBorder{
+        font-size: 10px;
+        color: #f2f2f2;
+        border: 1px solid #f58181;
+        border-radius: 30px;
+        background-color: #f58181;
+        padding: 5px 4px 4px 4px;
+        margin: 0px 8px 0px 0px;
+    }
+    
+}
+
+

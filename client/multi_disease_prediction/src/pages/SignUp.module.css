@@ -1,0 +1,73 @@
+.SignUpSection{
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+  
+.SignUp{
+    text-align: center;
+    color: #f58181;
+    font-size: 2rem;
+    font-weight: bold;
+
+} 
+.LabelUserName{
+    color: #f58181;
+}
+
+.LabelPassword{
+    color: #f58181;
+}
+ 
+  
+
+.SignUpForm{
+    /* border: 1px solid red; */
+    height: 21rem;
+    width: 24rem;
+    padding: 15px;
+}
+
+.Input{
+    border-bottom: 1px solid #f58181;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    width: 20rem;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #f58181;
+
+}
+
+.ButtonSection{
+    text-align: center;
+}
+
+.SignUpButton{
+    height: 2.2rem;
+    width: 6rem;
+    font-size: 17px;
+    background-color: #f58181;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 1rem;
+
+}
+
+
+.RedirectLink{
+    text-align: center;
+}
+
+.AllreadyAccount{
+    color: #f58181;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+

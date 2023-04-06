@@ -1,0 +1,32 @@
+.HomeSection{
+    /* border: 1px solid red; */
+    height: 36rem;
+    display: flex;
+    align-items: center;
+}
+
+.TextSection{
+    /* border: 1px solid green; */
+    width: 41rem;
+    margin-left: 4rem;
+}
+
+.ImageSection{
+    /* border: 1px solid blue; */
+    width: 35rem;
+}
+
+.Image{
+    height: 25rem;
+    width: 34rem;
+}
+
+.Text{
+    font-size: 4rem;
+    color: #f58181;
+}
+
+.MainText{
+    font-size: 2rem;
+    text-align: justify;
+}
